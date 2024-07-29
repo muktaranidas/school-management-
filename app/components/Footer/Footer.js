@@ -3,9 +3,12 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div>
-        <footer className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800">
+        <footer className="px-4 divide-y bg-[#ffffff]">
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-    <Image src="/eduFooter.png" width={186} height={68}/>
+    <div className="grid grid-cols-2 gap-8">
+        <Image src="/eduFooter.png" width={0} height={0}/>
+        <p className="text-black">©2024 Edu360 Powered by: MRAM Technologies Ltd.</p>
+    </div>
 		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
 			<div className="space-y-3">
 				<h3 className=" text-[#1F1C14] font-semibold text-2xl">Quick links</h3>
