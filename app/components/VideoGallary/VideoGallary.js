@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function VideoGallary() {
   return (
-    <div className="bg-[#2A3956] flex flex-col justify-center items-center">
-        <h1 className="text-[#3DB166] font-bold my-8 text-5xl">Video Gallary</h1>
-       <div className="grid grid-cols-2 gap-8 ">
+    <div className="bg-[#2A3956]  flex flex-col justify-center items-center">
+        <h1 className="text-[#3DB166] font-bold mt-8 text-5xl">Video Gallary</h1>
+       <div className="grid grid-cols-2 my-8 gap-8 ">
 
        <div className="flex flex-col p-6  overflow-hidden rounded-lg shadow-md bg-[#FFFFFF]">
                     <div> 
