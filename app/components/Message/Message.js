@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Message() {
   return (
-   <div className="grid grid-cols-3 mx-auto items-center justify-center my-8">
+   <div className="grid grid-cols-3 mx-auto bg-[#FFFEF3] items-center justify-center ">
         <div className="">
             <h1 className="my-6 text-center text-2xl	font-bold	">Message of Chairman</h1>
             <Image src="/messageImage.png"  width={210.26} height={193.87} className="mx-auto"/>

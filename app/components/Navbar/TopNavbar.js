@@ -1,7 +1,7 @@
 export default function TopNavbar() {
   return (
-    <div className=" bg-[#192F59] w-[1440px]">
-  <div className="navbar max-w-[1334px] mx-auto"><div className="flex-1">
+    <div className=" bg-[#192F59]">
+  <div className="navbar mx-auto"><div className="flex-1">
     <a className="text-[#FFFFFF]">daypiker use here</a>
   </div>
   <div className="flex-none">

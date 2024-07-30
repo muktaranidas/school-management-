@@ -5,9 +5,11 @@ export default function Footer() {
     <div>
         <footer className="px-4 divide-y bg-[#ffffff]">
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-    <div className="grid grid-cols-2 gap-8">
-        <Image src="/eduFooter.png" width={0} height={0}/>
-        <p className="text-black">©2024 Edu360 Powered by: MRAM Technologies Ltd.</p>
+    <div className="grid grid-cols-1 ">
+        <Image src="/edu.png" width={120} height={44}/>
+        <div className="text-base font-normal"><p className="text-black">©2024 Edu360 </p>
+        <p>Powered by: </p>
+        <p>MRAM Technologies Ltd.</p></div>
     </div>
 		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
 			<div className="space-y-3">
@@ -22,16 +24,7 @@ export default function Footer() {
 					<li>
 						<a rel="text-base font-normal" href="#">Histroy</a>
 					</li>
-					<li>
-						<a rel="text-base font-normal" href="#">Admissions</a>
-					</li>
-					<li>
-						<a rel="text-base font-normal" href="#">Notice</a>
-					</li>
 					
-					<li>
-						<a rel="text-base font-normal" href="#">Contact</a>
-					</li>
 				</ul>
 			</div>
 			<div className="space-y-3">

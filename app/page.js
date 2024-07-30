@@ -6,6 +6,7 @@ import VideoGallary from './components/VideoGallary/VideoGallary';
 import ImportantLink from './components/ImportantLink/ImportantLink';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
+import Menu from './components/Menu/Menu';
 const nunitoSans
 = Nunito_Sans({
   weight: '400',
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <div className={nunitoSans.className }>
       <Navbar></Navbar>
+      <Menu></Menu>
       <Message></Message>
       <About></About>
       <ImportantLink></ImportantLink>
