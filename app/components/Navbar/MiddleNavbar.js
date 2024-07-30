@@ -1,8 +1,9 @@
 import Image from "next/image";
 
 export default function MiddleNavbar() {
+
   return (
-    <div className=" max-w-[1440px]">
+    <div className="">
   <div className="navbar max-w-[1334px] mx-auto">
     <div className="flex-1">
   <div className="">
