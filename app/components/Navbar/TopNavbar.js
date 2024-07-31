@@ -14,6 +14,7 @@ export default function TopNavbar() {
         'January', 'February', 'March', 'April', 'May', 'June',
         'July', 'August', 'September', 'October', 'November', 'December'
       ];
+      
       const day = days[now.getDay()];
       const date = now.getDate();
       const month = months[now.getMonth()];

@@ -5,7 +5,6 @@ import VideoGallary from './components/VideoGallary/VideoGallary';
 import ImportantLink from './components/ImportantLink/ImportantLink';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
-
 import Banner from './components/Banner/Banner';
 import Gallery from './components/Gallery/Gallery';
 const nunitoSans
@@ -13,20 +12,17 @@ const nunitoSans
   weight: ['400',"300"],
   subsets: ['cyrillic'],
 })
-
 export default function Home() {
   return (
     <div className={`${nunitoSans.className} ` } >
       <Navbar></Navbar>
       <Banner></Banner>
-     
       <Message></Message>
       <About></About>
       <Gallery></Gallery>
       <VideoGallary></VideoGallary>
       <ImportantLink></ImportantLink>
       <Footer></Footer>
-      
     </div>
   );
 }

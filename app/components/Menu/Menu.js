@@ -1,7 +1,7 @@
 export default function Menu() {
   return (
    <div className="">
-        <div className=" shadow-2xl  bg-[#fffaf3]">
+        <div className=" shadow-2xl bg-[#fffaf3]">
         <div className="border border-black mx-8  rounded-lg text-center ">
           <h1 className=" text-[#0A033C]  font-bold  my-8  text-5xl">Quick Menu</h1>
           <div className="grid grid-cols-4 my-8"> 
