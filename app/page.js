@@ -1,4 +1,3 @@
-
 import { Nunito_Sans} from 'next/font/google'
 import Navbar from './components/Navbar/Navbar';
 import Message from './components/Message/Message';
@@ -11,7 +10,7 @@ import Banner from './components/Banner/Banner';
 import Gallery from './components/Gallery/Gallery';
 const nunitoSans
 = Nunito_Sans({
-  weight: '400',
+  weight: ['400',"300"],
   subsets: ['cyrillic'],
 })
 

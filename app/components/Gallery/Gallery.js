@@ -12,7 +12,7 @@ export default function Gallery() {
                         </svg>
 		            </button>
                     <div className="grid grid-cols-3 my-8 gap-8 ">
-                    <div className="flex flex-col py-4 px-12  overflow-hidden rounded-lg shadow-md bg-[#FFFFFF]">
+                    <div className="flex flex-col py-4 px-12  overflow-hidden rounded-lg shadow-md bg-[#FFFFFF] ">
                             <div> 
                                 <Image src="/videoGallary.jpg"  width={216} height={125} alt="" className="object-cover  mb-2  dark:bg-gray-500" />
                             </div>
