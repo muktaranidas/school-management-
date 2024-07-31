@@ -4,7 +4,7 @@ export default function ImportantLink() {
   return (
     <div>
         <div className="bg-[#d5d5d8] flex flex-col justify-center items-center">
-        <h1 className="text-[#2A3956] font-bold mt-8 text-5xl">Important Link</h1>
+        <h1 className="text-[#0A033C]  font-bold mt-8 text-5xl">Important Link</h1>
        <div className="grid grid-cols-2 gap-8 my-8 ">
        <div className="flex flex-col p-6  overflow-hidden rounded-lg shadow-md bg-[#FFFFFF]">
                     <div> 

@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Menu from './components/Menu/Menu';
 import Banner from './components/Banner/Banner';
+import Gallery from './components/Gallery/Gallery';
 const nunitoSans
 = Nunito_Sans({
   weight: '400',
@@ -22,7 +23,7 @@ export default function Home() {
       <Menu></Menu>
       <Message></Message>
       <About></About>
-      <ImportantLink></ImportantLink>
+      <Gallery></Gallery>
       <VideoGallary></VideoGallary>
       <ImportantLink></ImportantLink>
       <Footer></Footer>

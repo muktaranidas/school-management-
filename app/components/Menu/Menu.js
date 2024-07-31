@@ -5,7 +5,7 @@ export default function Menu() {
    <div className="bg-[#FFFFFF] ">
      <div className=" shadow-2xl  p-8 bg-[#fffaf3] ">
      <div className="border border-black   rounded-lg text-center ">
-      <h1 className=" text-[#2A3956] font-bold   my-8 text-5xl">Quick Menu</h1>
+      <h1 className=" text-[#0A033C]  font-bold   my-8 text-5xl">Quick Menu</h1>
       <div className="grid grid-cols-4 my-8 "> 
        
         <div className="bg-[#FFFFFF] max-w-[260px] flex flex-row items-center p-4 justify-center mx-auto  rounded-lg shadow-lg ">
