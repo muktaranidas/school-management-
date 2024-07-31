@@ -1,7 +1,8 @@
 import Image from "next/image";
 export default function MiddleNavbar() {
   return (
-    <div className="flex flex-row justify-between items-center gap-6  mx-8 bg-[#FFFEF3">
+    <div className="bg-[#FFFEF3]">
+      <div className="flex flex-row justify-between items-center gap-6  mx-8">
       <div className="flex flex-row item-center"><div className="">
         <Image src="/edu.png" width={120} height={44}/>
       </div>
@@ -18,5 +19,6 @@ export default function MiddleNavbar() {
         <Image src="/mojib.png" width={216} height={77}/>
       </div>
 </div>
+    </div>
   );
 }

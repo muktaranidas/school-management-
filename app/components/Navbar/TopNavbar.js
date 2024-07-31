@@ -38,7 +38,7 @@ export default function TopNavbar() {
               <div>{currentDateTime.time}</div>
         </div>
         <div className="flex flex-row py-4 px-8 gap-3">
-          <button className="px-3 py-1 rounded bg-[#FFFEF3] text-[#192F59]">Login</button>
+          <button className="px-5 py-0 rounded bg-[#FFFEF3] text-[#192F59]">Login</button>
           <button className="px-3 py-1 bg-[#3DB166] text-[#FFFFFF] rounded">Bangla</button>
         </div>
     </div>
