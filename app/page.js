@@ -5,7 +5,7 @@ import VideoGallary from './components/VideoGallary/VideoGallary';
 import ImportantLink from './components/ImportantLink/ImportantLink';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
-import Menu from './components/Menu/Menu';
+
 import Banner from './components/Banner/Banner';
 import Gallery from './components/Gallery/Gallery';
 const nunitoSans
@@ -19,7 +19,7 @@ export default function Home() {
     <div className={`${nunitoSans.className} ` } >
       <Navbar></Navbar>
       <Banner></Banner>
-      <Menu></Menu>
+     
       <Message></Message>
       <About></About>
       <Gallery></Gallery>

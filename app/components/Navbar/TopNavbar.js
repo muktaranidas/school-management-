@@ -38,30 +38,15 @@ export default function TopNavbar() {
               <div>{currentDateTime.time}</div>
         </div>
         <div className="flex flex-row py-4 px-8 gap-3">
-          <button className="px-5 py-0 rounded bg-[#FFFEF3] text-[#192F59]">Login</button>
+          <button className="px-2 py-0 rounded bg-[#FFFEF3] text-[#192F59] flex items-center gap-1 font-bold">
+            <p>Login</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+          </button>
           <button className="px-3 py-1 bg-[#3DB166] text-[#FFFFFF] rounded">Bangla</button>
         </div>
     </div>
-
-
-  {/* <div className="navbar  ">
-    <div className="flex-1">
-    <a className="text-[#FFFFFF]">daypiker use here</a>
-  </div>
-  <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 gap-3 font-bold	 ">
-      <li className="bg-[#FFFEF3] rounded">
-        <details>
-          <summary>Login</summary>
-          <ul className="bg-base-100 rounded-t-none p-2">
-            <li><a>Signin</a></li>
-          </ul>
-        </details>
-      </li>
-      <li className="bg-[#3DB166] text-[#FFFFFF] rounded"><a>Bangla</a></li>
-    </ul>
-  </div>
-  </div> */}
 </div>
   );
 }

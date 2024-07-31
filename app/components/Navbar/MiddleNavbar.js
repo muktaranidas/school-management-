@@ -3,7 +3,7 @@ export default function MiddleNavbar() {
   return (
     <div className="bg-[#FFFEF3]">
       <div className="flex flex-row justify-between items-center gap-6  mx-8">
-      <div className="flex flex-row item-center my-4"><div className="">
+      <div className="flex flex-row item-center my-4 items-center"><div className="">
         <Image src="/edu.png" width={120} height={44}/>
       </div>
       <div className="flex flex-col ml-10 ">
