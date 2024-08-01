@@ -31,7 +31,7 @@ export default function TopNavbar() {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <div className=" bg-[#192F59]">
+    <div className=" bg-[#192F59] font-myFont">
     <div className="bg-blue-950 text-white flex flex-row justify-between">
         <div className="flex flex-row py-4 px-8 gap-8  ">
               <div>{currentDateTime.day}</div>

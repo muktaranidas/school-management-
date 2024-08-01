@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        myFont: ['MyFont', 'sans-serif'],
+        // nunitoSans: ['MyFont', 'Nunito_Sans'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
