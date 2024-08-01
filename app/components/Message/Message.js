@@ -2,9 +2,9 @@ import Image from "next/image";
 import Menu from "../Menu/Menu";
 export default function Message() {
   return (
-  <>
-  <Menu></Menu>
-  <div className="grid grid-cols-3 mx-auto bg-[#FFFEF3] items-center justify-center ">
+  <div className="bg-[#FFF8E5] ">
+      <Menu></Menu>
+  <div className="grid grid-cols-3 mx-auto items-center justify-center ">
         <div className="flex flex-col mb-8">
             <div><h1 className="my-6 text-center text-2xl	font-bold	">Message of Chairman</h1>
             <div className=" flex justify-center">
@@ -61,6 +61,6 @@ export default function Message() {
         </div>
   </div>
   
-  </>
+  </div>
   );
 }

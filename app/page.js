@@ -1,4 +1,4 @@
-// import { Nunito_Sans} from 'next/font/google'
+import { Nunito_Sans} from 'next/font/google'
 import Navbar from './components/Navbar/Navbar';
 import Message from './components/Message/Message';
 import VideoGallary from './components/VideoGallary/VideoGallary';
@@ -8,15 +8,14 @@ import About from './components/About/About';
 import Banner from './components/Banner/Banner';
 import Gallery from './components/Gallery/Gallery';
 
-// const nunitoSans
-// = Nunito_Sans({
-//   weight: ['400',"300","500", "600", "700", "800", "900"],
-//   subsets: ['cyrillic'],
-// })
+const nunitoSans
+= Nunito_Sans({
+  weight: ['400',"300","500", "600", "700", "800", "900"],
+  subsets: ['cyrillic'],
+})
 export default function Home() {
   return (
-    // <div className={`${nunitoSans.className} ` } >
-    <div className="font-roboto">
+    <div className={`${nunitoSans.className} ` } >
       <Navbar></Navbar>
       <Banner></Banner>
       <Message></Message>
